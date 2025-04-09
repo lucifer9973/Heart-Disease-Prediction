@@ -2,6 +2,9 @@ from flask import Flask, render_template, request, jsonify
 import pandas as pd
 import numpy as np
 from joblib import load
+# Add to app.py
+import numpy as np
+print("DEPLOYMENT NUMPY VERSION:", np.__version__)
 
 app = Flask(__name__)
 
